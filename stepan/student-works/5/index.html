@@ -1,168 +1,385 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/style.css">
-    <link rel="icon" type="image/x-icon" href="./resources/Iconarchive-Fat-Sugar-Food-Pizza.512.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./resources/Iconarchive-Fat-Sugar-Food-Pizza.512.png"
+    />
     <title>The Smart Pizza Builder Yum-Yum</title>
-    
   </head>
   <body>
     <div class="h2">
       <h2>
-        <span class="back">
-          ստեղծիր քո նախընտրած պիցցան
-        </span><br>
-        <span class="h2-under">
-          ցույց տուր մեզ քո հնարավորություննեը
-        </span>
+        <span class="back"> ստեղծիր քո նախընտրած պիցցան </span><br />
+        <span class="h2-under"> ցույց տուր մեզ քո հնարավորություննեը </span>
       </h2>
       <p>
-        Կարծում եք, որ կարող եք ինչ-որ բան էլ ավելի լավը դարձնել:
-        Օգտագործեք ստորև բերված պիցցա շինարարը՝ ձեր սեփական պիցցան ստեղծելու համար: 
+        Կարծում եք, որ կարող եք ինչ-որ բան էլ ավելի լավը դարձնել: Օգտագործեք
+        ստորև բերված պիցցա շինարարը՝ ձեր սեփական պիցցան ստեղծելու համար:
       </p>
     </div>
     <div class="container">
       <div class="left">
-        <img src="./resources/pan.png" alt="" class="pan">
-        <img src="./resources/sauce-bbq.png" alt="" id="bbq-sauce" class="souce">
-        <img src="./resources/sauce-hot.png" alt="" id="hot-sauce" class="souce">
-        <img src="./resources/sauce-marinara.png" alt="" id="marinara" class="souce">
-        <img src="./resources/sauce-ranch.png" alt="" id="ranch-dressing" class="souce">
-        
-        <img src="./resources/cheese-cheddar.png" alt="" id="cheddar-cheese" class="cheese">
-        <img src="./resources/cheese-extra-cheddar.png" alt="" id="extra-cheddar" class="cheese">
-        <img src="./resources/cheese-extra-mozzarella.png" alt="" id="extra-mozzarella" class="cheese">
-        <img src="./resources/so-much-cheese.png" alt="" id="so-much-mozz" class="cheese">
-        <img src="./resources/cheese-mozzarella.png" alt="" id="mozzarella" class="cheese">
-        <img src="./resources/cheese-parmcheese.png" alt="" id="parmesan" class="cheese">
-        
-        <img src="./resources/topping-bacon.png" alt="" id="bacon" class="topping">
-        <img src="./resources/topping-chicken.png" alt="" id="chicken" class="topping">
-        <img src="./resources/topping-ham.png" alt="" id="ham" class="topping">
-        <img src="./resources/topping-italian.png" alt="" id="italian-sausage" class="topping">
-        <img src="./resources/topping-mushrooms.png" alt="" id="mushrooms" class="topping">
-        <img src="./resources/topping-olives.png" alt="" id="olives" class="topping">
-        <img src="./resources/topping-onions.png" alt="" id="onions" class="topping">
-        <img src="./resources/topping-peperonni.png" alt="" id="pepperoni" class="topping">
-        <img src="./resources/topping-peppers.png" alt="" id="peppers" class="topping">
-        <img src="./resources/topping-pineapple.png" alt="" id="pineapple" class="topping">
-        <img src="./resources/topping-spinach.png" alt="" id="spinach" class="topping">
-        <img src="./resources/topping-tomatoes.png" alt="" id="tomatoes" class="topping">
+        <img src="./resources/pan.png" alt="" class="pan" />
+        <img
+          src="./resources/sauce-bbq.png"
+          alt=""
+          id="bbq-sauce"
+          class="souce"
+        />
+        <img
+          src="./resources/sauce-hot.png"
+          alt=""
+          id="hot-sauce"
+          class="souce"
+        />
+        <img
+          src="./resources/sauce-marinara.png"
+          alt=""
+          id="marinara"
+          class="souce"
+        />
+        <img
+          src="./resources/sauce-ranch.png"
+          alt=""
+          id="ranch-dressing"
+          class="souce"
+        />
+
+        <img
+          src="./resources/cheese-cheddar.png"
+          alt=""
+          id="cheddar-cheese"
+          class="cheese"
+        />
+        <img
+          src="./resources/cheese-extra-cheddar.png"
+          alt=""
+          id="extra-cheddar"
+          class="cheese"
+        />
+        <img
+          src="./resources/cheese-extra-mozzarella.png"
+          alt=""
+          id="extra-mozzarella"
+          class="cheese"
+        />
+        <img
+          src="./resources/so-much-cheese.png"
+          alt=""
+          id="so-much-mozz"
+          class="cheese"
+        />
+        <img
+          src="./resources/cheese-mozzarella.png"
+          alt=""
+          id="mozzarella"
+          class="cheese"
+        />
+        <img
+          src="./resources/cheese-parmcheese.png"
+          alt=""
+          id="parmesan"
+          class="cheese"
+        />
+
+        <img
+          src="./resources/topping-bacon.png"
+          alt=""
+          id="bacon"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-chicken.png"
+          alt=""
+          id="chicken"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-ham.png"
+          alt=""
+          id="ham"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-italian.png"
+          alt=""
+          id="italian-sausage"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-mushrooms.png"
+          alt=""
+          id="mushrooms"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-olives.png"
+          alt=""
+          id="olives"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-onions.png"
+          alt=""
+          id="onions"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-peperonni.png"
+          alt=""
+          id="pepperoni"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-peppers.png"
+          alt=""
+          id="peppers"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-pineapple.png"
+          alt=""
+          id="pineapple"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-spinach.png"
+          alt=""
+          id="spinach"
+          class="topping"
+        />
+        <img
+          src="./resources/topping-tomatoes.png"
+          alt=""
+          id="tomatoes"
+          class="topping"
+        />
         <p class="total">
           ընդհամենը:
-          <span id="total-price">
-            0
-          </span>
+          <span id="total-price"> 0 </span>
         </p>
       </div>
       <div class="right">
         <div class="inputes">
           <h2>1. սոուսներ (+ 500 դրամ)</h2>
           <label>
-            <input type="radio" name="sauce" value="500" onchange="souceSelect('marinara')">Մարինառա
+            <input
+              type="radio"
+              name="sauce"
+              value="500"
+              onchange="souceSelect('marinara')"
+            />Մարինառա
           </label>
           <label>
-            <input type="radio" name="sauce" value="500"  onchange="souceSelect('hot-sauce')">Կծու սոուս
+            <input
+              type="radio"
+              name="sauce"
+              value="500"
+              onchange="souceSelect('hot-sauce')"
+            />Կծու սոուս
           </label>
           <label>
-            <input type="radio" name="sauce" value="500"  onchange="souceSelect('ranch-dressing')">Ռանչ Դրեսսինգ
+            <input
+              type="radio"
+              name="sauce"
+              value="500"
+              onchange="souceSelect('ranch-dressing')"
+            />Ռանչ Դրեսսինգ
           </label>
           <label>
-            <input type="radio" name="sauce" value="500"  onchange="souceSelect('bbq-sauce')">ԲԲՔ - սոուս
+            <input
+              type="radio"
+              name="sauce"
+              value="500"
+              onchange="souceSelect('bbq-sauce')"
+            />ԲԲՔ - սոուս
           </label>
         </div>
         <h2>2. պանիրներ</h2>
         <div class="cheese">
           <label>
-            <input type="radio" name="cheese" value="500"  onchange="cheeseSelect('mozzarella')">Մոցարելա (+ 500 դրամ)
+            <input
+              type="radio"
+              name="cheese"
+              value="500"
+              onchange="cheeseSelect('mozzarella')"
+            />Մոցարելա (+ 500 դրամ)
           </label>
           <label>
-            <input type="radio" name="cheese" value="600"  onchange="cheeseSelect('parmesan')">Պարմեսան (+ 600 դրամ)
+            <input
+              type="radio"
+              name="cheese"
+              value="600"
+              onchange="cheeseSelect('parmesan')"
+            />Պարմեսան (+ 600 դրամ)
           </label>
           <label>
-            <input type="radio" name="cheese" value="600"  onchange="cheeseSelect('cheddar-cheese')">Չեդեր Պանիր (+ 600 դրամ)
+            <input
+              type="radio"
+              name="cheese"
+              value="600"
+              onchange="cheeseSelect('cheddar-cheese')"
+            />Չեդեր Պանիր (+ 600 դրամ)
           </label>
           <label>
-            <input type="radio" name="cheese" value="1000"  onchange="cheeseSelect('extra-mozzarella')">Մեծ Մոցարելա (+ 1000 դրամ)
+            <input
+              type="radio"
+              name="cheese"
+              value="1000"
+              onchange="cheeseSelect('extra-mozzarella')"
+            />Մեծ Մոցարելա (+ 1000 դրամ)
           </label>
           <label>
-            <input type="radio" name="cheese" value="1500"  onchange="cheeseSelect('so-much-mozz')">Շատ Մեծ Մոցարելա (+ 1500 դրամ)
+            <input
+              type="radio"
+              name="cheese"
+              value="1500"
+              onchange="cheeseSelect('so-much-mozz')"
+            />Շատ Մեծ Մոցարելա (+ 1500 դրամ)
           </label>
           <label>
-            <input type="radio" name="cheese" value="1200"  onchange="cheeseSelect('extra-cheddar')">Մեծ Չեդեր (+ 1200 դրամ)
-
+            <input
+              type="radio"
+              name="cheese"
+              value="1200"
+              onchange="cheeseSelect('extra-cheddar')"
+            />Մեծ Չեդեր (+ 1200 դրամ)
           </label>
         </div>
         <h2>3. հավելումներ</h2>
         <div class="topping">
           <label>
-            <input type="checkbox" name="topping"  value="pepperoni" onchange="onToppingSelect()">Պեպերոնի (+ 800 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="pepperoni"
+              onchange="onToppingSelect()"
+            />Պեպերոնի (+ 800 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="peppers" onchange="onToppingSelect()">Պղպեղ (+ 300 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="peppers"
+              onchange="onToppingSelect()"
+            />Պղպեղ (+ 300 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="spinach" onchange="onToppingSelect()">Սպանախ (+ 200 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="spinach"
+              onchange="onToppingSelect()"
+            />Սպանախ (+ 200 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="ham" onchange="onToppingSelect()">Վիտչինա (+ 400 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="ham"
+              onchange="onToppingSelect()"
+            />Վիտչինա (+ 400 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="onions" onchange="onToppingSelect()">Սոխ (+ 100 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="onions"
+              onchange="onToppingSelect()"
+            />Սոխ (+ 100 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="bacon" onchange="onToppingSelect()">Բեկոն (+ 400 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="bacon"
+              onchange="onToppingSelect()"
+            />Բեկոն (+ 400 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="olives" onchange="onToppingSelect()">Սեւ Ձիթապտուղ (+ 200 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="olives"
+              onchange="onToppingSelect()"
+            />Սեւ Ձիթապտուղ (+ 200 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="chicken" onchange="onToppingSelect()">Հավ (+ 600 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="chicken"
+              onchange="onToppingSelect()"
+            />Հավ (+ 600 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="pineapple" onchange="onToppingSelect()">Անանաս (+ 600 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="pineapple"
+              onchange="onToppingSelect()"
+            />Անանաս (+ 600 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="tomatoes" onchange="onToppingSelect()">Տոմատ (+ 200 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="tomatoes"
+              onchange="onToppingSelect()"
+            />Տոմատ (+ 200 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="italian-sausage" onchange="onToppingSelect()">Իտալական նրբերշիկ (+ 600 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="italian-sausage"
+              onchange="onToppingSelect()"
+            />Իտալական նրբերշիկ (+ 600 դրամ)
           </label>
           <label>
-            <input type="checkbox" name="topping" value="mushrooms" onchange="onToppingSelect()">Սունկ (+ 400 դրամ)
+            <input
+              type="checkbox"
+              name="topping"
+              value="mushrooms"
+              onchange="onToppingSelect()"
+            />Սունկ (+ 400 դրամ)
           </label>
         </div>
       </div>
     </div>
     <div class="button">
-      <button class="butt-1">
-        Կիսվիր ընկերներիտ հետ
-      </button>
+      <button class="butt-1">Կիսվիր ընկերներիտ հետ</button>
     </div>
     <div class="footer">
-      
       <div class="menu">
-        <img src="./resources/logo-pizza.jpeg" alt="" width="10%">
-        <ul>
-          <li>cause</li>
-          <li>flavors</li>
-          <li>for schools</li>
-          <li>what they say</li>
-        </ul>
-        <ul>
-          <li>about</li>
-          <li>food truck</li>
-          <li>smart mouth bites</li>
-          <li>faq</li>
-        </ul>
+        <img src="./resources/logo-pizza.jpeg" alt="" width="10%" />
+        <div class="nav-list">
+          <ul>
+            <li>cause</li>
+            <li>flavors</li>
+            <li>for schools</li>
+            <li>what they say</li>
+          </ul>
+          <ul>
+            <li>about</li>
+            <li>food truck</li>
+            <li>smart mouth bites</li>
+            <li>faq</li>
+          </ul>
+        </div>
       </div>
-      
     </div>
     <script src="./script.js"></script>
   </body>
-  </html>
+</html>
