@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  min-width: 300px;
+  min-width: 280px;
   position: relative;
 }
 
@@ -243,9 +243,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:60px;
+    gap: 60px;
   }
-  #controls h3{
+  #controls h3 {
     margin: 0;
   }
 
@@ -412,13 +412,13 @@ img {
     padding: 0;
   }
   img {
-    width: 300px;
+    width: 280px;
   }
 
   #washingmachine {
     position: relative;
     border: 2px solid grey;
-    width: 300px;
+    width: 280px;
     border-radius: 10px;
     height: 350px;
     margin-left: 0;
@@ -445,9 +445,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:30px;
+    gap: 30px;
   }
-  #controls h3{
+  #controls h3 {
     margin: 0;
   }
 
