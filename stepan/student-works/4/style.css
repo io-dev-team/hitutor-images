@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden;
+  min-width: 300px;
+  position: relative;
 }
 
 img {
@@ -211,7 +213,7 @@ img {
   }
 
   #washingmachine {
-    position: relative;
+    position: relative !important;
     border: 2px solid grey;
     width: 95%;
     border-radius: 10px;
@@ -398,6 +400,209 @@ img {
     background-size: cover;
     position: absolute;
     top: 89.5vh;
+    left: 51%;
+  }
+}
+@media (max-width: 550px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    width: 300px;
+  }
+
+  #washingmachine {
+    position: relative;
+    border: 2px solid grey;
+    width: 300px;
+    border-radius: 10px;
+    height: 350px;
+    margin-left: 0;
+  }
+
+  #display {
+    background-image: url(images/photo_2024-04-20_16-16-55.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100px;
+  }
+
+  #controls {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid grey;
+    width: auto;
+    height: 27px;
+    position: absolute;
+    top: 36px;
+    left: 47%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+  }
+  #controls h3{
+    margin: 0;
+  }
+
+  #time {
+    width: auto;
+    height: auto;
+    position: static;
+    top: 0px;
+    left: 0px;
+  }
+
+  #rinse {
+    position: static;
+    order: 2;
+    top: 0px;
+    left: 0px;
+  }
+
+  #timerange {
+    position: static;
+    margin: 18px 20px 0 0;
+    float: right;
+    width: 70px;
+  }
+
+  #rinserange {
+    position: static;
+    margin: 18px 10px 0 0;
+    float: right;
+    width: 70px;
+  }
+
+  #start {
+    border-radius: 50%;
+    position: absolute;
+    padding: 6px;
+    top: 7%;
+    left: 10%;
+    width: 52px;
+    height: 52px;
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+
+  #open {
+    margin: 10px;
+    float: right;
+  }
+
+  #close,
+  #open {
+    padding: 7px;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    background: #98d9e4;
+    border: 3px solid #98d9e4;
+  }
+
+  #close,
+  #open:hover {
+    background: #03e9f4;
+    box-shadow: 0 0 5px #22a1d8;
+  }
+
+  #close {
+    margin: 20px;
+    display: none;
+    float: right;
+    top: 160px;
+    left: 430px;
+  }
+
+  #door {
+    background-image: url(images/istockphoto-481547058-612x612.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    border: 3px solid grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 22%;
+  }
+
+  .rotating-door {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  #handle {
+    top: 180px;
+    left: 65%;
+    border: 3px solid grey;
+    border-radius: 40px;
+    width: 20px;
+    height: 65px;
+    margin-left: 0;
+  }
+
+  #clothes {
+    opacity: 0.1;
+    background-image: url(images/laundry\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 22%;
+    top: 140px;
+    margin-left: 0px;
+  }
+
+  #programming {
+    width: 90%;
+    min-width: 250px;
+    height: 120px;
+    position: absolute;
+    top: 358px;
+    left: 5%;
+    padding: 10px 20px;
+  }
+  #programming h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  #programming:hover {
+    border: 2px solid #03e9f4;
+    box-shadow: 0 0 5px #22a1d8;
+  }
+
+  #laundry {
+    background-image: url(images/stock-photo-baby-laundry.jpg);
+    width: 130px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 480px;
+    left: 5%;
+  }
+
+  #liquid {
+    background-image: url(images/persil.webp);
+    width: 60px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 490px;
     left: 51%;
   }
 }
